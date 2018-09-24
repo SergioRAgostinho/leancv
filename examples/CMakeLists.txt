@@ -8,7 +8,6 @@ project(cv VERSION 0.1 LANGUAGES NONE)
 
 # Include paths to UseLATEX
 # list(APPEND CMAKE_MODULE_PATH "${UseLATEX_DIR}")
-list(APPEND CMAKE_MODULE_PATH "$ENV{HOME}/Development/3rdparty/UseLATEX")
 include(UseLATEX)
 
 add_latex_document(cv.tex IMAGE_DIRS .)
