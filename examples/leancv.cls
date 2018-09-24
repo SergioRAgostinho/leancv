@@ -1,0 +1,1 @@
+../leancv.cls
