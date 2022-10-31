@@ -51,6 +51,7 @@
 \RequirePackage{hyperref}
 \hypersetup{
     colorlinks = true,
+    linkcolor = {DarkGray},
     linkbordercolor = {white},
     urlcolor= {LightBlue}
 }
@@ -102,6 +103,14 @@
 			\content
 			 & \\
 		}%
+	}
+
+	\newcommand{\placemententry}[5]{
+		$\blacktriangleright$ \quad Research Group & \textcolor{DarkGray}{##1} \\
+		Institution & \textcolor{DarkGray}{##2} \\
+		Project & \textcolor{DarkGray}{##3} \\
+		Period & \textcolor{DarkGray}{##4 - ##5} \\
+		& \\
 	}
 
 	% Marks the beginning of a new section
