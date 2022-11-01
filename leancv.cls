@@ -80,6 +80,11 @@
 	% A job specific entry.
 	% Usage:
 	%	\jobentry{title}{start date - end date}{employer}{description}
+	\newcommand{\jobentryreduced}[3]{
+		$\blacktriangleright$ \quad Position & \textcolor{DarkGray}{##1 - ##2} \\
+		Employer & \textcolor{DarkGray}{##3} \\
+		 & \\
+	}
 	\newcommand{\jobentry}[4]{
 		$\blacktriangleright$ \quad Position & \textcolor{DarkGray}{##1 - ##2} \\
 		Employer & \textcolor{DarkGray}{##3} \\
